@@ -1,63 +1,61 @@
 package com.winter.lang;
 
-public class Stringmain {
+import java.util.Scanner;
+
+// String 관련 메서드와 Object 비교를 연습하는 클래스
+public class StringMain {
 
     public static void main(String[] args) {
+        // Scanner:
+        // 키보드 입력을 받을 때 사용하는 클래스
+        Scanner sc = new Scanner(System.in);
+
+        // String은 문자열 자료형
         String name = "winter";
 
-        // 문자열 전체 출력
-        System.out.println(name);
-
-        // String의 charAt(index)는 문자열에서 글자 1개만 꺼낼 때 사용한다.
-        // index는 0부터 시작한다.
-        // "winter"의 index 번호
-        // 0:w, 1:i, 2:n, 3:t, 4:e, 5:r
-
-        // 0번 글자 꺼내기 -> w
-        char first = name.charAt(0);
-        System.out.println(first);
-
-        // 1번 글자 꺼내기 -> i
-        char iChar = name.charAt(1);
-        System.out.println(iChar);
-
-        // 4번 글자 꺼내기 -> e
-        char eChar = name.charAt(4);
-        System.out.println(eChar);
-
-        // charAt()은 리턴 타입이 char이므로 변수도 char로 받는다.
-        char ch = name.charAt(0);
+        // charAt(3):
+        // 0부터 시작하는 인덱스에서 3번째 위치의 문자 1개를 꺼낸다.
+        char ch = name.charAt(3);
         System.out.println(ch);
 
-        // index 범위는 0부터 length() - 1 까지이다.
-        // "winter"는 길이가 6이므로 사용 가능한 index는 0~5이다.
-        // 만약 name.charAt(6)처럼 쓰면 범위를 벗어나서 오류가 난다.
-
-        // Object 객체를 2개 생성한다.
+        // Object:
+        // 자바의 모든 클래스의 최상위 부모 클래스
         Object obj = new Object();
-        Object obj2 = new Object();
 
-        // toString()은 객체 정보를 문자열 형태로 바꾼다.
+        // toString():
+        // 객체를 문자열로 바꿔서 보여주는 메서드
         String s1 = obj.toString();
-        String s2 = obj.toString();
+        String s2 = name.toString();
 
-        // Object의 기본 equals()는 두 객체의 주소가 같은지 비교한다.
-        // obj와 obj2는 서로 다른 객체이므로 결과는 false이다.
-        boolean c = obj.equals(obj2);
-
-        // 객체를 바로 출력하면 내부적으로 toString()이 호출된다.
         System.out.println(obj);
-        System.out.println(obj2);
         System.out.println(s1);
         System.out.println(s2);
+        System.out.println(name);
+
+        String s3 = sc.toString();
+        System.out.println(s3);
+
+        Object obj2 = new Object();
+
+        // boolean:
+        // 참(true) / 거짓(false)을 저장하는 자료형
+        //
+        // equals():
+        // 내용이나 상태가 같은지 비교하는 메서드
+        boolean c = obj.equals(obj2);
         System.out.println(c);
 
-        // 새 문자열 변수를 만든다.
         String name2 = "winter";
+        c = name.equals(name2);
+        System.out.println(c);
 
-        // 문자열 비교는 == 대신 equals()를 사용한다.
-        // equals()는 문자열의 내용이 같은지 비교한다.
-        c = name.equals(name2); // name == name2;
+        name2 = "Winter";
+        c = name.equals(name2);
+        System.out.println(c);
+
+        // equalsIgnoreCase():
+        // 대소문자를 무시하고 문자열을 비교
+        c = name.equalsIgnoreCase(name2);
         System.out.println(c);
     }
 }
