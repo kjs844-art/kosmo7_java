@@ -6,6 +6,7 @@ public class WrapperMain1 {
 		String n = "123";
 
 		Integer integer = Integer.valueOf(n);
+		// Variable names cannot be numbers like "Long 1".
 		Long longValue = Long.valueOf(n);
 
 		System.out.println(integer + 1);
@@ -20,6 +21,7 @@ public class WrapperMain1 {
 
 		long number = 3L;
 		integer = (int) number;
+		// A cast must include a value, so "(int)" alone is invalid.
 		num = (int) number;
 
 		// parsing

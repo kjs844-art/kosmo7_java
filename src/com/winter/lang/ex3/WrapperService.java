@@ -8,10 +8,12 @@ public class WrapperService {
 		System.out.println("주민번호 입력: xxxxxx-1234567");
 		String data = sc.next();
 
+		// The old code had an incomplete substring call and a missing semicolon.
 		String yearText = data.substring(0, 2);
 		int birthYear = Integer.parseInt(yearText);
 		int code = Integer.parseInt(data.substring(7, 8));
 
+		// Use || for OR. [] is not valid in an if condition.
 		if (code == 1 || code == 2) {
 			birthYear += 1900;
 		} else if (code == 3 || code == 4) {
@@ -29,6 +31,7 @@ public class WrapperService {
 
 		int currentYear = 2026;
 
+		// Keep yearText for age calculation, but print the full input date.
 		String yearText = data.substring(0, 4);
 		System.out.println(data);
 

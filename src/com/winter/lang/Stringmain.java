@@ -2,6 +2,7 @@ package com.winter.lang;
 
 import java.util.Scanner;
 
+// The source file name must match the public class name: StringMain.java
 public class StringMain {
 
 	public static void main(String[] args) {
