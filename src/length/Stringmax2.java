@@ -33,7 +33,8 @@ public class Stringmax2 {
         } else if (ext.equalsIgnoreCase("jpeg")) {
             System.out.println("이미지 파일입니다.");
         } else {
-            // The old line had an extra "d" after println, which caused a compile error.
+            // before: System.out.println("이미지 파일이 아닙니다.");d
+            // after: 문장 끝에 붙은 d 는 불필요한 문자라서 컴파일 에러가 난다.
             System.out.println("이미지 파일이 아닙니다.");
         }
 

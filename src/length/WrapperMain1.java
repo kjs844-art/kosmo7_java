@@ -6,7 +6,8 @@ public class WrapperMain1 {
 		String n = "123";
 
 		Integer integer = Integer.valueOf(n);
-		// Variable names cannot be numbers like "Long 1".
+		// before: Long 1 = Long.valueOf(n);
+		// after: 변수명은 숫자로만 만들 수 없어서 의미 있는 이름으로 바꾼다.
 		Long longValue = Long.valueOf(n);
 
 		System.out.println(integer + 1);
@@ -21,7 +22,8 @@ public class WrapperMain1 {
 
 		long number = 3L;
 		integer = (int) number;
-		// A cast must include a value, so "(int)" alone is invalid.
+		// before: num = (int);
+		// after: 형변환은 값과 같이 써야 하므로 number를 붙여야 한다.
 		num = (int) number;
 
 		// parsing

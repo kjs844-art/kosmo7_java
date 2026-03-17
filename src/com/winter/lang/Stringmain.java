@@ -2,7 +2,8 @@ package com.winter.lang;
 
 import java.util.Scanner;
 
-// The source file name must match the public class name: StringMain.java
+// before: 파일명은 Stringmain.java 였는데 클래스명은 StringMain 이었음
+// after: public class 이름과 파일명은 반드시 같아야 해서 StringMain.java 로 맞췄다.
 public class StringMain {
 
 	public static void main(String[] args) {

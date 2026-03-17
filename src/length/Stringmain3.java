@@ -3,7 +3,8 @@ package length;
 public class Stringmain3 {
 
 	public static void main(String[] args) {
-		// The old code closed main() too early, so the lines below were outside any method.
+		// before: main()를 먼저 닫아서 아래 코드가 메서드 밖으로 나가 있었음
+		// after: 문자열 관련 코드를 모두 main() 안으로 넣어서 실행 가능하게 만든다.
 		String n1 = "abc";
 		String n2 = "abc";
 		String n3 = new String("abc");
@@ -11,7 +12,8 @@ public class Stringmain3 {
 
 		System.out.println(n1.toString());
 		System.out.println(n3);
-		// Java is case-sensitive, so "system" must be "System".
+		// before: system.out.println(n1==n2);
+		// after: 자바는 대소문자를 구분하므로 System으로 써야 한다.
 		System.out.println(n1 == n2);
 		System.out.println(n3 == n4);
 		System.out.println(n1 == n3);
@@ -22,7 +24,8 @@ public class Stringmain3 {
 		System.out.println(n3);
 
 		StringBuffer sb = new StringBuffer("abc");
-		// The old code used "st.append", but the declared variable name is sb.
+		// before: st.append("1");
+		// after: 선언한 변수명이 sb 이므로 같은 이름으로 호출해야 한다.
 		sb.append("1");
 		sb.append(1);
 
