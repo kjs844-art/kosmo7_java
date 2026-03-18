@@ -1,0 +1,587 @@
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\car\Carmain.java:15: error: cannot find symbol
+		Car car1 = new Car(); 
+		^
+  symbol:   class Car
+  location: class Carmain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\car\Carmain.java:15: error: cannot find symbol
+		Car car1 = new Car(); 
+		               ^
+  symbol:   class Car
+  location: class Carmain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\car\Carmain.java:28: error: cannot find symbol
+		Car car2 = new Car("아반떼", 25000000);
+		^
+  symbol:   class Car
+  location: class Carmain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\car\Carmain.java:28: error: cannot find symbol
+		Car car2 = new Car("아반떼", 25000000);
+		               ^
+  symbol:   class Car
+  location: class Carmain
+4 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\School.java:3: error: package Study does not exist
+import Study.Student;
+            ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\School.java:4: error: package input does not exist
+import input.StudentInput;
+            ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\School.java:9: error: cannot find symbol
+        StudentInput si = new StudentInput();
+        ^
+  symbol:   class StudentInput
+  location: class School
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\School.java:9: error: cannot find symbol
+        StudentInput si = new StudentInput();
+                              ^
+  symbol:   class StudentInput
+  location: class School
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\School.java:10: error: cannot find symbol
+        StudentView sv = new StudentView();
+        ^
+  symbol:   class StudentView
+  location: class School
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\School.java:10: error: cannot find symbol
+        StudentView sv = new StudentView();
+                             ^
+  symbol:   class StudentView
+  location: class School
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\School.java:13: error: cannot find symbol
+        Student[] students = si.makeStudents();
+        ^
+  symbol:   class Student
+  location: class School
+7 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\StudentView.java:3: error: package Study does not exist
+import Study.Student;
+            ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\StudentView.java:8: error: cannot find symbol
+    public void view(Student st) {
+                     ^
+  symbol:   class Student
+  location: class StudentView
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\StudentView.java:18: error: cannot find symbol
+    public void viewList(Student[] students) {
+                         ^
+  symbol:   class Student
+  location: class StudentView
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\StudentView.java:21: error: cannot find symbol
+            for(Student st : students) {
+                ^
+  symbol:   class Student
+  location: class StudentView
+4 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\TestJumsu.java:3: error: package Study does not exist
+import Study.Student; 
+            ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\TestJumsu.java:11: error: cannot find symbol
+    public void calculate(Student st) {
+                          ^
+  symbol:   class Student
+  location: class TestJumsu
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\TestJumsu.java:24: error: cannot find symbol
+    public void testReference(Student st) {
+                              ^
+  symbol:   class Student
+  location: class TestJumsu
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\TestJumsu.java:26: error: cannot find symbol
+        st = new Student(); 
+                 ^
+  symbol:   class Student
+  location: class TestJumsu
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\TestJumsu.java:32: error: cannot find symbol
+        Student student = new Student();
+        ^
+  symbol:   class Student
+  location: class TestJumsu
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\TestJumsu.java:32: error: cannot find symbol
+        Student student = new Student();
+                              ^
+  symbol:   class Student
+  location: class TestJumsu
+6 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\Testjumsu1.java:3: error: package Study does not exist
+import Study.Student;
+            ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\Testjumsu1.java:8: error: cannot find symbol
+    public void t1(Student st) {
+                   ^
+  symbol:   class Student
+  location: class Testjumsu1
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\Testjumsu1.java:16: error: cannot find symbol
+    public void t2(Student st) {
+                   ^
+  symbol:   class Student
+  location: class Testjumsu1
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\Testjumsu1.java:19: error: cannot find symbol
+        st = new Student(); 
+                 ^
+  symbol:   class Student
+  location: class Testjumsu1
+4 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\Monster.java:15: error: cannot find symbol
+	public Staff staff;
+	       ^
+  symbol:   class Staff
+  location: class Monster
+1 error
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\Rpg.java:3: error: package RPG.charactor does not exist
+import RPG.charactor.Wizard;
+                    ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\Rpg.java:12: error: cannot find symbol
+        Wizard wizard = new Wizard();
+        ^
+  symbol:   class Wizard
+  location: class Rpg
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\Rpg.java:12: error: cannot find symbol
+        Wizard wizard = new Wizard();
+                            ^
+  symbol:   class Wizard
+  location: class Rpg
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\Rpg.java:17: error: cannot find symbol
+        Staff staff = new Staff();
+        ^
+  symbol:   class Staff
+  location: class Rpg
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\Rpg.java:17: error: cannot find symbol
+        Staff staff = new Staff();
+                          ^
+  symbol:   class Staff
+  location: class Rpg
+5 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:3: error: package RPG.charactor does not exist
+import RPG.charactor.Warrior;
+                    ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:9: error: cannot find symbol
+		Warrior w = new Warrior();
+		^
+  symbol:   class Warrior
+  location: class RpgMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:9: error: cannot find symbol
+		Warrior w = new Warrior();
+		                ^
+  symbol:   class Warrior
+  location: class RpgMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:13: error: cannot find symbol
+		Monster m = new Monster();
+		^
+  symbol:   class Monster
+  location: class RpgMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:13: error: cannot find symbol
+		Monster m = new Monster();
+		                ^
+  symbol:   class Monster
+  location: class RpgMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:17: error: cannot find symbol
+		Monster m2 = new Monster();
+		^
+  symbol:   class Monster
+  location: class RpgMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:17: error: cannot find symbol
+		Monster m2 = new Monster();
+		                 ^
+  symbol:   class Monster
+  location: class RpgMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:21: error: cannot find symbol
+		Monster m3 = new Monster();
+		^
+  symbol:   class Monster
+  location: class RpgMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:21: error: cannot find symbol
+		Monster m3 = new Monster();
+		                 ^
+  symbol:   class Monster
+  location: class RpgMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\com\winter\study\rpgmain\RpgMain.java:26: error: cannot find symbol
+		Monster[] monsters = {m, m2, m3};
+		^
+  symbol:   class Monster
+  location: class RpgMain
+10 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\input\StudentInput.java:4: error: package Study does not exist
+import Study.Student;
+            ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\input\StudentInput.java:18: error: cannot find symbol
+    public Student makeStudent() {
+           ^
+  symbol:   class Student
+  location: class StudentInput
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\input\StudentInput.java:46: error: cannot find symbol
+    public Student[] makeStudents() {
+           ^
+  symbol:   class Student
+  location: class StudentInput
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\input\StudentInput.java:19: error: cannot find symbol
+        Student st = new Student();
+        ^
+  symbol:   class Student
+  location: class StudentInput
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\input\StudentInput.java:19: error: cannot find symbol
+        Student st = new Student();
+                         ^
+  symbol:   class Student
+  location: class StudentInput
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\input\StudentInput.java:50: error: cannot find symbol
+        Student[] students = new Student[count];
+        ^
+  symbol:   class Student
+  location: class StudentInput
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\input\StudentInput.java:50: error: cannot find symbol
+        Student[] students = new Student[count];
+                                 ^
+  symbol:   class Student
+  location: class StudentInput
+7 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Member.java:41: error: illegal start of type
+    @Override
+    ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Member.java:41: error: <identifier> expected
+    @Override
+             ^
+2 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:13: error: cannot find symbol
+        Member m1 = new Member();
+        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:13: error: cannot find symbol
+        Member m1 = new Member();
+                        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:18: error: cannot find symbol
+        Member m2 = new Member("홍길동", 30, "서울시 강남구");
+        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:18: error: cannot find symbol
+        Member m2 = new Member("홍길동", 30, "서울시 강남구");
+                        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:23: error: cannot find symbol
+        Member m3 = new Member("김철수", 25);
+        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:23: error: cannot find symbol
+        Member m3 = new Member("김철수", 25);
+                        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:28: error: cannot find symbol
+        Member m4 = new Member("이영희");
+        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:28: error: cannot find symbol
+        Member m4 = new Member("이영희");
+                        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:33: error: cannot find symbol
+        Member m5 = new Member(40);
+        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:33: error: cannot find symbol
+        Member m5 = new Member(40);
+                        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:40: error: cannot find symbol
+        Member m6 = new Member("부산시 해운대구");
+        ^
+  symbol:   class Member
+  location: class Membermain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Member\Membermain.java:40: error: cannot find symbol
+        Member m6 = new Member("부산시 해운대구");
+                        ^
+  symbol:   class Member
+  location: class Membermain
+12 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\charactor.java:3: error: package com.winter.study.rpgmain does not exist
+import com.winter.study.rpgmain.Staff;
+                               ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\charactor.java:18: error: cannot find symbol
+	public Staff staff;
+	       ^
+  symbol:   class Staff
+  location: class charactor
+2 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:12: error: cannot find symbol
+	     Wizard w1 = new Wizard();
+	     ^
+  symbol:   class Wizard
+  location: class CharactorMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:12: error: cannot find symbol
+	     Wizard w1 = new Wizard();
+	                     ^
+  symbol:   class Wizard
+  location: class CharactorMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:16: error: cannot find symbol
+	     Warrior wa1 = new Warrior();
+	     ^
+  symbol:   class Warrior
+  location: class CharactorMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:16: error: cannot find symbol
+	     Warrior wa1 = new Warrior();
+	                       ^
+  symbol:   class Warrior
+  location: class CharactorMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:21: error: cannot find symbol
+	     charactor c1 = w1;		
+	     ^
+  symbol:   class charactor
+  location: class CharactorMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:22: error: cannot find symbol
+	     charactor c2 = wa1;
+	     ^
+  symbol:   class charactor
+  location: class CharactorMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:32: error: cannot find symbol
+         if (c1 instanceof Wizard) {
+                           ^
+  symbol:   class Wizard
+  location: class CharactorMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:33: error: cannot find symbol
+             Wizard w2 = (Wizard) c1;
+             ^
+  symbol:   class Wizard
+  location: class CharactorMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\CharactorMain.java:33: error: cannot find symbol
+             Wizard w2 = (Wizard) c1;
+                          ^
+  symbol:   class Wizard
+  location: class CharactorMain
+9 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:3: error: package com.winter.study.rpgmain does not exist
+import com.winter.study.rpgmain.Monster;
+                               ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:10: error: cannot find symbol
+public class Warrior extends charactor {
+                             ^
+  symbol: class charactor
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:23: error: cannot find symbol
+	public void attackAll(Monster[] monsters) {
+	                      ^
+  symbol:   class Monster
+  location: class Warrior
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:13: error: cannot find symbol
+        this.name = "이름없는 전사";
+            ^
+  symbol: variable name
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:14: error: cannot find symbol
+        this.hp = 200;
+            ^
+  symbol: variable hp
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:15: error: cannot find symbol
+        this.damage = 20;
+            ^
+  symbol: variable damage
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:18: error: method does not override or implement a method from a supertype
+	@Override
+	^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:20: error: cannot find symbol
+		System.out.println(name + "이(가) 검으로 공격하며 묵직한 데미지를 입힙니다!");
+		                   ^
+  symbol:   variable name
+  location: class Warrior
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:24: error: cannot find symbol
+		System.out.println("=== 전사 " + name + "의 광역 베기!!! ===");
+		                               ^
+  symbol:   variable name
+  location: class Warrior
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Warrior.java:26: error: cannot find symbol
+			for (Monster m : monsters) {
+			     ^
+  symbol:   class Monster
+  location: class Warrior
+10 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:3: error: package com.winter.study.rpgmain does not exist
+import com.winter.study.rpgmain.Staff;
+                               ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:11: error: cannot find symbol
+public class Wizard extends charactor {
+                            ^
+  symbol: class charactor
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:14: error: cannot find symbol
+        this.name = "이름없는 마법사";
+            ^
+  symbol: variable name
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:15: error: cannot find symbol
+        this.hp = 100;
+            ^
+  symbol: variable hp
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:16: error: cannot find symbol
+        this.mp = 150;
+            ^
+  symbol: variable mp
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:17: error: cannot find symbol
+        this.damage = 10;
+            ^
+  symbol: variable damage
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:18: error: cannot find symbol
+        this.level = 1;
+            ^
+  symbol: variable level
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:21: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:23: error: cannot find symbol
+        if (this.staff != null) {
+                ^
+  symbol: variable staff
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:24: error: cannot find symbol
+            System.out.println(name + "이(가) " + staff.name + "으로 마법 공격을 합니다!");
+                               ^
+  symbol:   variable name
+  location: class Wizard
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:24: error: cannot find symbol
+            System.out.println(name + "이(가) " + staff.name + "으로 마법 공격을 합니다!");
+                                                ^
+  symbol:   variable staff
+  location: class Wizard
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:25: error: cannot find symbol
+            System.out.println("데미지: " + (staff.power + damage));
+                                          ^
+  symbol:   variable staff
+  location: class Wizard
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:25: error: cannot find symbol
+            System.out.println("데미지: " + (staff.power + damage));
+                                                        ^
+  symbol:   variable damage
+  location: class Wizard
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\Wizard.java:27: error: cannot find symbol
+            System.out.println(name + "이(가) 미약한 마법 에너지를 방출합니다. (데미지: 5)");
+                               ^
+  symbol:   variable name
+  location: class Wizard
+14 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\RPG\charactor\wizard_extends.java:7: error: cannot find symbol
+public class wizard_extends extends Wizard {
+                                    ^
+  symbol: class Wizard
+1 error
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Star\StarMain.java:14: error: cannot find symbol
+		Drone d1 = new Drone();
+		^
+  symbol:   class Drone
+  location: class StarMain
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Star\StarMain.java:14: error: cannot find symbol
+		Drone d1 = new Drone();
+		               ^
+  symbol:   class Drone
+  location: class StarMain
+2 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\start\Start.java:3: error: package com.winter.study does not exist
+import com.winter.study.School;
+                       ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\start\Start.java:15: error: cannot find symbol
+        School school = new School();
+        ^
+  symbol:   class School
+  location: class Start
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\start\Start.java:15: error: cannot find symbol
+        School school = new School();
+                            ^
+  symbol:   class School
+  location: class Start
+3 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Student.java:10: error: cannot find symbol
+public class Student extends Person {
+                             ^
+  symbol: class Person
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Student.java:29: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Student.java:32: error: cannot find symbol
+        System.out.println(name + " 학생은 학교에서 열심히 공부를 합니다.");
+                           ^
+  symbol:   variable name
+  location: class Student
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Student.java:40: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Student.java:43: error: cannot find symbol
+        super.info();
+        ^
+  symbol:   variable super
+  location: class Student
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Student.java:49: error: cannot find symbol
+        System.out.println("안녕하세요, 제 이름은 " + name + "이고, 나이는 " + age + "살입니다.");
+                                             ^
+  symbol:   variable name
+  location: class Student
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Student.java:49: error: cannot find symbol
+        System.out.println("안녕하세요, 제 이름은 " + name + "이고, 나이는 " + age + "살입니다.");
+                                                                 ^
+  symbol:   variable age
+  location: class Student
+7 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Study1.java:12: error: cannot find symbol
+        Student myStudent = new Student();
+        ^
+  symbol:   class Student
+  location: class Study1
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Study1.java:12: error: cannot find symbol
+        Student myStudent = new Student();
+                                ^
+  symbol:   class Student
+  location: class Study1
+2 errors
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:3: error: package com.winter.study does not exist
+import com.winter.study.Salary;
+                       ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:11: error: cannot find symbol
+class TeacherInfo extends Person {
+                          ^
+  symbol: class Person
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:13: error: cannot find symbol
+    public Salary salary; 
+           ^
+  symbol:   class Salary
+  location: class TeacherInfo
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:14: error: cannot find symbol
+    public Student st; 
+           ^
+  symbol:   class Student
+  location: class TeacherInfo
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:26: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:28: error: cannot find symbol
+        System.out.println((name != null ? name : "미상") + " 선생님은 " + subject + " 과목을 강의 중입니다.");
+                            ^
+  symbol:   variable name
+  location: class TeacherInfo
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:28: error: cannot find symbol
+        System.out.println((name != null ? name : "미상") + " 선생님은 " + subject + " 과목을 강의 중입니다.");
+                                           ^
+  symbol:   variable name
+  location: class TeacherInfo
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:33: error: cannot find symbol
+            System.out.println("--- " + name + " 선생님의 급여 명세 ---");
+                                        ^
+  symbol:   variable name
+  location: class TeacherInfo
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:41: error: cannot find symbol
+        Student s = new Student("장보고", 17);
+        ^
+  symbol:   class Student
+  location: class Teacher
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:41: error: cannot find symbol
+        Student s = new Student("장보고", 17);
+                        ^
+  symbol:   class Student
+  location: class Teacher
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:45: error: cannot find symbol
+        t.salary = new Salary();
+                       ^
+  symbol:   class Salary
+  location: class Teacher
+C:\Users\KOSMO\Documents\workspace-spring-tools-for-eclipse-5.0.1.RELEASE\Java.ji\src\Study\Teacher.java:47: error: cannot find symbol
+        t.info();     // 부모로부터 물려받은 메서드
+         ^
+  symbol:   method info()
+  location: variable t of type TeacherInfo
+12 errors
